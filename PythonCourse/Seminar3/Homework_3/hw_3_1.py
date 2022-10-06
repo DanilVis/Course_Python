@@ -9,3 +9,7 @@ for i in range(1, len(num_list), 2):
     odd_index_sum += num_list[i]
 
 print(odd_index_sum)
+
+# Вариант 2 - через функцию sum
+num_list = [2, 3, 5, 9, 3, 8]
+print(sum(num_list[1::2]))

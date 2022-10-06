@@ -14,4 +14,7 @@ for i in num_list:
 
 print(max - min)
 
-
+# Вариант 2 - через функции min, max
+num_list = [1.1, 1.2, 3.1, 5, 10.01]
+new_list = [round(i % 1, 2) for i in num_list] # if i%1 != 0 - можно добавить в квадратные скобки, чтобы исключить целые числа без дробной части
+print(max(new_list) - min(new_list))

@@ -2,6 +2,8 @@
 
 entered_num = int(input('Введите число: '))
 # print(format(entered_num, 'b'))
+# или
+# print(bin(entered_num)[2:])
 
 result = ''
 while entered_num != 0:
