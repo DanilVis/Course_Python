@@ -13,19 +13,19 @@ for j in range(-1, -n, -1):
 
 print(fibonacci)
 
-# Вариант 2 - в один цикл
-# n = int(input('Введите число: '))
-# fibonacci = [-1, 1, 0, 1, 1]
-# fib1 = fib2 = 1
+# Вариант 2 - в один цикл и без индексов
+n = int(input('Введите число: '))
+fibonacci = [0]
+fib1 = fib2 = 1
 
-# for i in range(2, n):
-#     fib1, fib2 = fib2, fib1 + fib2
-#     fibonacci.append(fib2)
-#     fibonacci.insert(0, fib2 * (-1) ** i)
+for i in range(n):
+    fibonacci.append(fib1)
+    fibonacci.insert(0, fib1 * (-1) ** i)
+    fib1, fib2 = fib2, fib1 + fib2
 
-# print(fibonacci)
+print(fibonacci)
 
-## Вариант 3 - через рекурсию и с отдеьными функциями
+## Вариант 3 - через рекурсию и с отдельными функциями
 def fibonacci(n):
     if n in [1, 2]:
         return 1
