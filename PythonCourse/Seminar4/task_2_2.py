@@ -5,7 +5,7 @@ from math import sqrt
 
 def abc(a, b, c):
     D = b ** 2 - 4 * a * c
-    with open('result.txt', 'a', encoding='utf8') as my_f:
+    with open('G:\\Seminars\\Python\\PythonCourse\\Seminar4\\result.txt', 'a', encoding='utf8') as my_f:
         my_f.write(f'{a}x^2 + {b}x + {c} = 0\n')
         if D > 0 and a:
             my_f.write(str((-b + sqrt(D)) / (2 * a)) + '\n')
