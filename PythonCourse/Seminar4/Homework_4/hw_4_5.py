@@ -42,7 +42,7 @@ poly1 = polynomial_r('G:/Seminars/Python/PythonCourse/Seminar4/Homework_4/poly1.
 poly2 = polynomial_r('G:/Seminars/Python/PythonCourse/Seminar4/Homework_4/poly2.txt')
 res_poly = poly_sum(coefficients(poly1), coefficients(poly2))
 
-with open('G:/Seminars\Python/PythonCourse/Seminar4/Homework_4/poly_results.txt', 'a', encoding='utf8') as poly:
+with open('G:/Seminars/Python/PythonCourse/Seminar4/Homework_4/poly_results.txt', 'a', encoding='utf8') as poly:
     poly.write(polynomial(res_poly))
 polynomial(res_poly)
 

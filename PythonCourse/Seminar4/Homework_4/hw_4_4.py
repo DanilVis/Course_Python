@@ -21,5 +21,5 @@ def polynomial(num_list):
 k = int(input('Введите значение степени k: '))
 coefficients = [randint(0, 101) for i in range(k + 1)]
 
-with open('G:/Seminars\Python/PythonCourse/Seminar4/Homework_4/poly_results.txt', 'a', encoding='utf8') as poly:
+with open('G:/Seminars/Python/PythonCourse/Seminar4/Homework_4/poly_results.txt', 'a', encoding='utf8') as poly:
     poly.write(polynomial(coefficients))
