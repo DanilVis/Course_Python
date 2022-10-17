@@ -72,5 +72,3 @@ print(decoded_data)
 
 with open('G:/Seminars/Python/PythonCourse/Seminar5/Homework_5/rle_input.txt', 'w') as output2:
     output2.write(decoded_data)
-
-
