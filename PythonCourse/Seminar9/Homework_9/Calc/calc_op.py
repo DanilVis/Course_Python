@@ -12,3 +12,7 @@ def calc_sub(a, b):
  
 def calc_div(a, b): 
     return a / b
+
+
+def calc_exponent(a, b):
+    return a ** b
